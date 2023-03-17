@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "dev.qing.JWTSecurity.SecurityConfig.RsaKeyProperties",
+      "sourceType": "dev.qing.JWTSecurity.SecurityConfig.RsaKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "dev.qing.JWTSecurity.SecurityConfig.RsaKeyProperties"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "dev.qing.JWTSecurity.SecurityConfig.RsaKeyProperties"
+    }
+  ],
+  "hints": []
+}
